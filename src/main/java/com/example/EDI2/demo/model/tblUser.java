@@ -17,18 +17,6 @@ public class tblUser {
     private String password;
     private String status;
 
-    public tblUser() {
-    }
-
-    public tblUser(Integer userid, String username, String namalengkap, String password, String status) {
-        super();
-        this.userid = userid;
-        this.username = username;
-        this.namalengkap = namalengkap;
-        this.namalengkap = password;
-        this.namalengkap = status;
-    }
-
     public Integer getId() {
         return userid;
     }
